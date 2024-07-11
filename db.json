@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Playstation 5",
+      "value": "500,00",
+      "image": "https://i.ebayimg.com/thumbs/images/g/xz8AAOSwt1JmOwiH/s-l225.jpg",
+      "id": 1
+    },
+    {
+      "name": "Xbox series S",
+      "value": "300,00",
+      "image": "https://doto.vtexassets.com/arquivos/ids/324036/microsoft-consola-xbox-series-s-512gb-dotomexico-vista-dinamica.jpg?v=638364458753000000",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Nintendo switch",
+      "value": "300,00",
+      "image": "https://www.radioshackla.com/media/catalog/product/4/6/463799600019_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+    },
+    {
+      "id": 4,
+      "name": "Xbox series X",
+      "value": "500,00",
+      "image": "https://www.radioshackla.com/media/catalog/product/f/d/fd9cc3cc-3533-4eec-a87d-e6abcc77aae7.0e7d395789bb5e75eb627b80cfe78b13_svrheuzogcmhtvzt.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700"
+    }
+  ]
+}

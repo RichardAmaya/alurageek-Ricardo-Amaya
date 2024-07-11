@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=Press+Start+2P&display=swap');
+
+:root {
+    --blue: #731e94;
+    --purple: #6b0096;
+    --violet: #b44783;
+    --pink: #461d3f;
+    --white: #ffffff;
+    --black: #000000;
+    --primary-font: "Press Start 2P", system-ui;
+    --secondary-font: "IBM Plex Mono", monospace;
+}
+
+.page-width {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    height: 96px;
+    background-color: var(--purple);
+}
+
+main {
+    height: auto;
+    gap: 40px;
+}
+
+.title {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    color: var(--white);
+}
+
+.subtitle {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--white);
+}
+
+.main-title {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 24px;
+    font-style: normal;
+    color: var(--black);
+    text-align: center;
+}
+
+.product-page-box{
+    padding: 40px 0 40px 40px;
+    width: 70%;
+}
+
+.products-title-box {
+    padding: 0 0 40px 0;
+}
+
+.products-box {
+    width: 100%;
+}
+
+.product-box{
+    width: 196px;
+    height: 258px;
+    border: solid 3px var(--black);
+    border-radius: 6px;
+    background-color: var(--purple);
+}
+
+.product-img {
+    padding: 10px 0 0 0;
+    width: 176px;
+    height: 174px;
+}
+
+.product-info-box {
+    width: 176px;
+    height: 24px;
+}
+
+.product-title {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    color: var(--white);
+}
+
+.product-price {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-style: bold;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--white);
+}
+
+.product-button-delete {
+    background-color: transparent;
+    border: none;
+}
+
+.form-box {
+    padding: 40px 80px 40px 40px;
+    width: 30%;
+    height: 517px;
+}
+
+form {
+    width: 100%;
+}
+
+.form-button-box {
+    width: 100%;
+}
+
+.button-save{
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.button-delete {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.button-form {
+    width: 47%;
+    height: 55px;
+    border: solid 3px var(--blue);
+    border-radius: 50px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+input {
+    width: 100%;
+    height: 58px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--blue);
+    border: solid 3px;
+    border-radius: 50px;
+    padding: 0 10px 0 10px;
+}
+
+footer {
+    height: 150px;
+    background-color: var(--purple);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--white);
+    text-align: center;
+}
+
+@media (max-width: 798px) {
+    header {
+        height: auto;
+        padding: 20px;
+    }
+
+    .product-page-box {
+        padding: 40px;
+    }
+
+    .products-box {
+        width: auto;
+    }
+
+    .form-box {
+        padding: 40px;
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+}
